@@ -1,0 +1,56 @@
+		#marbleClock{
+			display: block;
+			position: absolute;
+			top: 50px;
+			left: 200px;
+		}
+		.circle,.resevoirBubble{
+			text-align: center;
+			width: 50px;
+			height: 50px;
+			font-family: Helvetica, arial, sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+			 -webkit-border-radius: 25px;
+    		-moz-border-radius: 25px;
+    		border-radius: 25px;
+    		line-height: 50px;
+			border: 1px solid gray;
+			vertical-align: middle;
+		}
+		#time,#label, td{
+			color: gray;
+			text-align: right;
+			font-family: Helvetica, arial, sans-serif;
+			font-size: 22px;
+			font-weight: bold;
+		}
+		#time{
+			float: left;
+			font-size: 38px;
+		}
+		#label{
+			float: left;
+			font-size: 24px;
+			margin-top: 6px;
+		}
+		.label{
+			font-size: 12px;
+		}
+		svg{
+			position: absolute;
+		}
+		#movingMarble{
+			color: gray;
+			position: absolute;
+			background-color: #FA830C;
+			top: 352px;
+			left: 180px;
+		}
+		#resevoir{
+			display: block;
+			position: absolute;
+			top: 350px;
+			left: 200px;
+		}
+	
